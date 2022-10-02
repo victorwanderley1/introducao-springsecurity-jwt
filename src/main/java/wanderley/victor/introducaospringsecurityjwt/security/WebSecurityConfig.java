@@ -24,6 +24,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     private static final String[] SWAGGER_WHITELIST = {
             "/v2/api-docs",
+            "/v3/api-docs",
+            "/v3/api-docs/swagger-config",
+            "/swagger-ui/index.html",
             "/swagger-resources",
             "/swagger-resources/**",
             "/configuration/ui",
